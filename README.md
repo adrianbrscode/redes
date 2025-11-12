@@ -52,5 +52,3 @@ Una calculadora remota **cliente/servidor** sobre **TCP**. El **cliente** envía
 - OP * 2 2.5 → OK 5
 - OP / 10 4 → OK 2.5
 - OP / 3 0 → ERR DIV_ZERO División por cero.
-- OP x 1 2 → ERR BAD_OP Operador no permitido: x
-- OP + a 2 → ERR BAD_NUM Operandos deben ser números (usa punto decimal).
