@@ -5,6 +5,11 @@
 - Para **Windows**: utiliza el archivo `serverWindows.py` para el servidor.
 - Para **Linux**: utiliza el archivo `server.py` para el servidor.
 
+## Ejecución rápida
+- **Servidor Windows**: abrir terminal en windows, pararse en la ruta donde están los archivos y ejecutar: `py serverWindows.py`
+- **Servidor Linux**: abrir terminal en Linux, pararse en la ruta donde están los archivos y ejecutar: `py server.py`
+- **Cliente**: usar `py client.py <IP_SERVIDOR> [PUERTO]` **Ejemplo**: `py client.py 127.0.0.1 5000`
+
 ## Qué es
 Una calculadora remota **cliente/servidor** sobre **TCP**. El **cliente** envía una operación en texto; el **servidor** la calcula y responde con una línea de texto.
 
