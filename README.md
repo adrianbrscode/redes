@@ -1,6 +1,10 @@
 
 # Calculadora TCP — Explicación del funcionamiento
 
+## A considerar
+- Para **Windows**: utiliza el archivo `serverWindows.py` para el servidor.
+- Para **Linux**: utiliza el archivo `server.py` para el servidor.
+
 ## Qué es
 Una calculadora remota **cliente/servidor** sobre **TCP**. El **cliente** envía una operación en texto; el **servidor** la calcula y responde con una línea de texto.
 
